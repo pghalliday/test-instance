@@ -1,5 +1,5 @@
 {
-  "formatron-test-instance": {
-    "sub_domain": "formatron-test-instance-production"
+  "test": {
+    "sub_domain": "test-production"
   }
 }

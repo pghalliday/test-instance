@@ -5,11 +5,11 @@ formatron.dependency 'formatron-test-bootstrap'
 
 formatron.vpc 'vpc' do |vpc|
   vpc.subnet 'private' do |subnet|
-    subnet.instance 'formatron-test-instance' do |instance|
-      instance.guid 'INSTANCEEHWP4I9C'
-      instance.sub_domain config['formatron-test-instance']['sub_domain']
+    subnet.instance 'test' do |instance|
+      instance.guid 'INSTANCEF6NIL4XG'
+      instance.sub_domain config['test']['sub_domain']
       instance.chef do |chef|
-        chef.cookbook 'cookbooks/formatron-test-instance_instance'
+        chef.cookbook 'cookbooks/test_instance'
       end
     end
   end
