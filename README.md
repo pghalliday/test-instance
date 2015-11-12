@@ -1,3 +1,3 @@
-# test-instance
+# formatron-test-instance
 
 Formatron configuration
