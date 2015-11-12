@@ -7,7 +7,7 @@ formatron.vpc 'vpc' do |vpc|
       instance.guid 'INSTANCES8FOD9DP'
       instance.sub_domain config['test-instance']['sub_domain']
       instance.chef do |chef|
-        chef.cookbook 'cookbooks/test-instance_instance'
+        chef.cookbook 'cookbooks/test_instance_instance'
       end
     end
   end
