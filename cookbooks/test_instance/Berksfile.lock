@@ -1,0 +1,7 @@
+DEPENDENCIES
+  test_instance
+    path: .
+    metadata: true
+
+GRAPH
+  test_instance (0.1.0)
