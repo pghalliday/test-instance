@@ -1,7 +1,7 @@
 formatron.name 'formatron-test-instance'
 formatron.bucket 'formatron-test'
 
-formatron.dependency 'formatron-test-bootstrap'
+formatron.depends 'formatron-test-bootstrap'
 
 formatron.vpc 'vpc' do |vpc|
   vpc.subnet 'private' do |subnet|
