@@ -1,4 +1,4 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "formatron", path: '../../../formatron'
+gem "formatron", "~> 0.1"
